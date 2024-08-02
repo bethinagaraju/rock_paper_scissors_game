@@ -1,0 +1,56 @@
+#nav{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    justify-content: space-evenly;
+}
+
+.para{
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+#boxes{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    background-color: none;
+}
+.box{
+    
+    padding: 25px;
+}
+.image{
+    width: 90%;
+}
+.btn{
+    margin-left: 100px;
+    border: none;
+    background-color: white;
+}
+
+#score{
+    height: 100px;
+    width: 500px;
+    margin-left: 35%;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.image{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#win{
+    margin-right: 10%;
+}
